@@ -29,10 +29,15 @@ namespace Laboratorio_2___Josefa_Tramon
                     string gender = Console.ReadLine();
                     line = Console.ReadLine();
                     spotify.AgregarSong(new Song(name, album, artist, gender));
+                    Console.WriteLine("canción agregada exitosamente\n");
+                    Console.WriteLine("Indique su opcion\n1. agregar canción\n2. ver canciones\n3. salir\n");
+                    opcion = Console.ReadLine();
                 }
                 else if (opcion == "2") 
                 {
                     spotify.seeSong();
+                    Console.WriteLine("Indique su opcion\n1. agregar canción\n2. ver canciones\n3. salir\n");
+                    opcion = Console.ReadLine();
                 }
 
             }
