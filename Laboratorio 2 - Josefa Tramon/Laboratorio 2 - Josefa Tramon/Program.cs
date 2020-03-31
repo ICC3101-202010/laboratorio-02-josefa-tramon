@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Laboratorio_2___Josefa_Tramon
 {
@@ -38,82 +40,10 @@ namespace Laboratorio_2___Josefa_Tramon
 
         }
     }
-    class Song
-    {
-        private string name;
-
-        private string album;
-
-        private string gender;
-
-        private string artist;
-
-
-        public Song(string name, string album, string artist, string gender)
-
-        {
-            this.name = name;
-
-            this.album = album;
-
-            this.artist = artist;
-
-            this.gender = gender;
-
-        }
-
-        public string Name
-        {
-            get { return name; }
-        }
-        public string Album
-        {
-            get { return album; }
-        }
-        public string Artist
-        {
-            get { return artist; }
-        }
-        public string Gender
-        {
-            get { return gender; }
-        }
+    
 
     }
-    public class Espotifai 
-    {
-        public List<Song> arraySongs;
 
-        public Espotifai()
-        {
-
-        }
-        public bool AddSong(Song song)
-        {
-            this.arraySongs.add(song);
-            return true;
-        }
-        public void seeSong()
-        {
-            if (arraySongs.size != 0)
-            {
-                foreach (Song song in this.arraySongs)
-                {
-                    Console.Write("genero: " + song.Gender + ", artista: " + song.Artist + ", album: " + song.Album + ", nombre: " + song.Name + "\n");
-                }
-            }
-            else
-            {
-                Console.Write("no hay canciones\n");
-            }
-                
-        }
-
-
-
-
-
-    }
 
 
         
@@ -121,7 +51,7 @@ namespace Laboratorio_2___Josefa_Tramon
 
         
 
-    }
+    
 
 
     
