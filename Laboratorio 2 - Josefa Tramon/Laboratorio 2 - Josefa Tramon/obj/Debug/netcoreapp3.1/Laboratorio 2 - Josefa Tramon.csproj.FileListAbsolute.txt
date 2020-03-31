@@ -1,0 +1,4 @@
+C:\Users\pepaj\Desktop\laboratorio-02-josefa-tramon\Laboratorio 2 - Josefa Tramon\Laboratorio 2 - Josefa Tramon\obj\Debug\netcoreapp3.1\Laboratorio 2 - Josefa Tramon.csprojAssemblyReference.cache
+C:\Users\pepaj\Desktop\laboratorio-02-josefa-tramon\Laboratorio 2 - Josefa Tramon\Laboratorio 2 - Josefa Tramon\obj\Debug\netcoreapp3.1\Laboratorio 2 - Josefa Tramon.csproj.CoreCompileInputs.cache
+C:\Users\pepaj\Desktop\laboratorio-02-josefa-tramon\Laboratorio 2 - Josefa Tramon\Laboratorio 2 - Josefa Tramon\obj\Debug\netcoreapp3.1\Laboratorio 2 - Josefa Tramon.AssemblyInfoInputs.cache
+C:\Users\pepaj\Desktop\laboratorio-02-josefa-tramon\Laboratorio 2 - Josefa Tramon\Laboratorio 2 - Josefa Tramon\obj\Debug\netcoreapp3.1\Laboratorio 2 - Josefa Tramon.AssemblyInfo.cs

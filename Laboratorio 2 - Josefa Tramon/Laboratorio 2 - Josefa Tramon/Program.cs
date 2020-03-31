@@ -6,7 +6,36 @@ namespace Laboratorio_2___Josefa_Tramon
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int[] opciones = { 1, 2, 3 };
+            Console.WriteLine("Hello, welcome to Espotifai\n");
+            string line;
+            string opcion = "";
+            Espotifai spotify = new Espotifai();
+            while (opcion != "3")
+            {
+                Console.WriteLine("Indique su opcion\n1. agregar canción\n2. ver canciones\n3. salir\n");
+                opcion = Console.ReadLine();
+                if (opcion == "1")
+                {
+                    Console.WriteLine("Indique nombre\n");
+                    string name= Console.ReadLine();
+                    Console.WriteLine("Indique almbum\n");
+                    string album = Console.ReadLine();
+                    Console.WriteLine("Indique artista\n");
+                    string artist = Console.ReadLine();
+                    Console.WriteLine("Indique genero\n");
+                    string gender = Console.ReadLine();
+                    line = Console.ReadLine();
+                    spotify.AddSong(new Song(name, album, artist, gender));
+                }
+                else if (opcion == "2") 
+                {
+                    spotify.seeSong();
+                }
+
+            }
+                
+
         }
     }
     class Song
@@ -32,30 +61,50 @@ namespace Laboratorio_2___Josefa_Tramon
             this.gender = gender;
 
         }
+
+        public string Name
+        {
+            get { return name; }
+        }
+        public string Album
+        {
+            get { return album; }
+        }
+        public string Artist
+        {
+            get { return artist; }
+        }
+        public string Gender
+        {
+            get { return gender; }
+        }
+
     }
-    class Espotifai 
+    public class Espotifai 
     {
-        public Song[] arraySongs;
-        public int num;
+        public List<Song> arraySongs;
 
         public Espotifai()
         {
-            this.num = 0;
 
         }
         public bool AddSong(Song song)
         {
-            this.arraySongs[num] = song;
-
-            this.num += 1;
+            this.arraySongs.add(song);
             return true;
         }
         public void seeSong()
         {
-            foreach (Song song in this.arraySongs)
+            if (arraySongs.size != 0)
             {
-                string nonmbre = song.name;
-                Console.Write("genero: " + song.gender + ", artista: " + song.artist + ", album: " + song.album + ", nombre: " + song.name + "\n");
+                foreach (Song song in this.arraySongs)
+                {
+                    Console.Write("genero: " + song.Gender + ", artista: " + song.Artist + ", album: " + song.Album + ", nombre: " + song.Name + "\n");
+                }
+            }
+            else
+            {
+                Console.Write("no hay canciones\n");
             }
                 
         }
@@ -75,11 +124,10 @@ namespace Laboratorio_2___Josefa_Tramon
     }
 
 
-    }
+    
 
 
 
-}   
 
 
     
