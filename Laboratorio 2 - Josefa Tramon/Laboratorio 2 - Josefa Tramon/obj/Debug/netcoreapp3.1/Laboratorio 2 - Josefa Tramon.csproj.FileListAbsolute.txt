@@ -2,3 +2,12 @@ C:\Users\pepaj\Desktop\laboratorio-02-josefa-tramon\Laboratorio 2 - Josefa Tramo
 C:\Users\pepaj\Desktop\laboratorio-02-josefa-tramon\Laboratorio 2 - Josefa Tramon\Laboratorio 2 - Josefa Tramon\obj\Debug\netcoreapp3.1\Laboratorio 2 - Josefa Tramon.csproj.CoreCompileInputs.cache
 C:\Users\pepaj\Desktop\laboratorio-02-josefa-tramon\Laboratorio 2 - Josefa Tramon\Laboratorio 2 - Josefa Tramon\obj\Debug\netcoreapp3.1\Laboratorio 2 - Josefa Tramon.AssemblyInfoInputs.cache
 C:\Users\pepaj\Desktop\laboratorio-02-josefa-tramon\Laboratorio 2 - Josefa Tramon\Laboratorio 2 - Josefa Tramon\obj\Debug\netcoreapp3.1\Laboratorio 2 - Josefa Tramon.AssemblyInfo.cs
+C:\Users\pepaj\Desktop\laboratorio-02-josefa-tramon\Laboratorio 2 - Josefa Tramon\Laboratorio 2 - Josefa Tramon\bin\Debug\netcoreapp3.1\Laboratorio 2 - Josefa Tramon.exe
+C:\Users\pepaj\Desktop\laboratorio-02-josefa-tramon\Laboratorio 2 - Josefa Tramon\Laboratorio 2 - Josefa Tramon\bin\Debug\netcoreapp3.1\Laboratorio 2 - Josefa Tramon.deps.json
+C:\Users\pepaj\Desktop\laboratorio-02-josefa-tramon\Laboratorio 2 - Josefa Tramon\Laboratorio 2 - Josefa Tramon\bin\Debug\netcoreapp3.1\Laboratorio 2 - Josefa Tramon.runtimeconfig.json
+C:\Users\pepaj\Desktop\laboratorio-02-josefa-tramon\Laboratorio 2 - Josefa Tramon\Laboratorio 2 - Josefa Tramon\bin\Debug\netcoreapp3.1\Laboratorio 2 - Josefa Tramon.runtimeconfig.dev.json
+C:\Users\pepaj\Desktop\laboratorio-02-josefa-tramon\Laboratorio 2 - Josefa Tramon\Laboratorio 2 - Josefa Tramon\bin\Debug\netcoreapp3.1\Laboratorio 2 - Josefa Tramon.dll
+C:\Users\pepaj\Desktop\laboratorio-02-josefa-tramon\Laboratorio 2 - Josefa Tramon\Laboratorio 2 - Josefa Tramon\bin\Debug\netcoreapp3.1\Laboratorio 2 - Josefa Tramon.pdb
+C:\Users\pepaj\Desktop\laboratorio-02-josefa-tramon\Laboratorio 2 - Josefa Tramon\Laboratorio 2 - Josefa Tramon\obj\Debug\netcoreapp3.1\Laboratorio 2 - Josefa Tramon.dll
+C:\Users\pepaj\Desktop\laboratorio-02-josefa-tramon\Laboratorio 2 - Josefa Tramon\Laboratorio 2 - Josefa Tramon\obj\Debug\netcoreapp3.1\Laboratorio 2 - Josefa Tramon.pdb
+C:\Users\pepaj\Desktop\laboratorio-02-josefa-tramon\Laboratorio 2 - Josefa Tramon\Laboratorio 2 - Josefa Tramon\obj\Debug\netcoreapp3.1\Laboratorio 2 - Josefa Tramon.genruntimeconfig.cache

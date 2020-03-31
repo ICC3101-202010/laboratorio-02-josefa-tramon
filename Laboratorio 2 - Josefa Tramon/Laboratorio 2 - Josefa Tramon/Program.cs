@@ -28,7 +28,7 @@ namespace Laboratorio_2___Josefa_Tramon
                     Console.WriteLine("Indique genero\n");
                     string gender = Console.ReadLine();
                     line = Console.ReadLine();
-                    spotify.AddSong(new Song(name, album, artist, gender));
+                    spotify.AgregarSong(new Song(name, album, artist, gender));
                 }
                 else if (opcion == "2") 
                 {

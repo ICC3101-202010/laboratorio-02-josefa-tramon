@@ -11,13 +11,13 @@ namespace Laboratorio_2___Josefa_Tramon
 
         public Espotifai()
         {
-            List<Song> list = new List<Song>();
-            ArraySongs = list;
+            ArraySongs = new List<Song>();
+            
         }
 
         internal List<Song> ArraySongs { get => arraySongs; set => arraySongs = value; }
 
-        public bool AddSong(Song song)
+        public bool AgregarSong(Song song)
         {
             this.ArraySongs.Add(song);
             return true;

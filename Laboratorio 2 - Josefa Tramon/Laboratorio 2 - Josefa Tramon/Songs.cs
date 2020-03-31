@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Laboratorio_2___Josefa_Tramon
 {
-    class Song
+    public class Song
     {
         private string name;
 
